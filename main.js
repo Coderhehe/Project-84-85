@@ -77,3 +77,76 @@ function mykeydown(e) {
         console.log("You Pressed D");
     }
 }
+
+function car1up() {
+    if (car1y>=0) {
+        car1y= car1y-10;
+        console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
+        uploadBackground;
+        uploadCar1;
+        uploadCar2;
+    }
+}
+function car1down() {
+    if (car1y<=500) {
+        car1y= car1y+10;
+        console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
+        uploadBackground;
+        uploadCar1;
+        uploadCar2;
+    }
+}
+function car1left() {
+    if (car1x>=0) {
+        car1x= car1x-10;
+        console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
+        uploadBackground;
+        uploadCar1;
+        uploadCar2;
+    }
+}
+function car1right() {
+    if (car1x<=500) {
+        car1x= car1x+10;
+        console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
+        uploadBackground;
+        uploadCar1;
+        uploadCar2;
+    }
+}
+function car2up() {
+    if (car2y>=0) {
+        car2y= car2y-10;
+        console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
+        uploadBackground;
+        uploadCar1;
+        uploadCar2;
+    }
+}
+function car2down() {
+    if (car2y<=500) {
+        car2y= car2y+10;
+        console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
+        uploadBackground;
+        uploadCar1;
+        uploadCar2;
+    }
+}
+function car2left() {
+    if (car2x>=0) {
+        car2x= car2x-10;
+        console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
+        uploadBackground;
+        uploadCar1;
+        uploadCar2;
+    }
+}
+function car2right() {
+    if (car2x>=0) {
+        car2x= car2x+10;
+        console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
+        uploadBackground;
+        uploadCar1;
+        uploadCar2;
+    }
+}
