@@ -142,7 +142,7 @@ function car2left() {
     }
 }
 function car2right() {
-    if (car2x>=0) {
+    if (car2x<=700) {
         car2x= car2x+10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
         uploadBackground();
