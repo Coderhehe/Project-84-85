@@ -3,14 +3,14 @@ ctx=canvas.getContext("2d");
 
 car1width=120;
 car1heght=70;
-car1i="car1.jpg";
+car1i="https://i.postimg.cc/YqdnnNX1/car1.png";
 car1x=10;
 car1y=10;
 car2width=120;
 car2heght=70;
-car2i="car2.jpg";
-car2x=150;
-car2y=10;
+car2i="https://i.postimg.cc/YqdnnNX1/car1.png";
+car2x=10;
+car2y=100;
 bagi="racingbg.jpg";
 
 function add() {
@@ -28,7 +28,7 @@ function add() {
 }
 function uploadBackground()
 {
-    ctx.drawImage(backgrounditag,0,0,canvas.wdth,canvas.height);
+    ctx.drawImage(backgrounditag,0,0,canvas.width,canvas.height);
 }
 
 function uploadCar1() {
@@ -82,71 +82,71 @@ function car1up() {
     if (car1y>=0) {
         car1y= car1y-10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
-        uploadBackground;
-        uploadCar1;
-        uploadCar2;
+        uploadBackground();
+        uploadCar1();
+        uploadCar2();
     }
 }
 function car1down() {
     if (car1y<=500) {
         car1y= car1y+10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
-        uploadBackground;
-        uploadCar1;
-        uploadCar2;
+        uploadBackground();
+        uploadCar1();
+        uploadCar2();
     }
 }
 function car1left() {
     if (car1x>=0) {
         car1x= car1x-10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
-        uploadBackground;
-        uploadCar1;
-        uploadCar2;
+        uploadBackground();
+        uploadCar1();
+        uploadCar2();
     }
 }
 function car1right() {
     if (car1x<=500) {
         car1x= car1x+10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
-        uploadBackground;
-        uploadCar1;
-        uploadCar2;
+        uploadBackground();
+        uploadCar1();
+        uploadCar2();
     }
 }
 function car2up() {
     if (car2y>=0) {
         car2y= car2y-10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
-        uploadBackground;
-        uploadCar1;
-        uploadCar2;
+        uploadBackground();
+        uploadCar1();
+        uploadCar2();
     }
 }
 function car2down() {
     if (car2y<=500) {
         car2y= car2y+10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
-        uploadBackground;
-        uploadCar1;
-        uploadCar2;
+        uploadBackground();
+        uploadCar1();
+        uploadCar2();
     }
 }
 function car2left() {
     if (car2x>=0) {
         car2x= car2x-10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
-        uploadBackground;
-        uploadCar1;
-        uploadCar2;
+        uploadBackground();
+        uploadCar1();
+        uploadCar2();
     }
 }
 function car2right() {
     if (car2x>=0) {
         car2x= car2x+10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
-        uploadBackground;
-        uploadCar1;
-        uploadCar2;
+        uploadBackground();
+        uploadCar1();
+        uploadCar2();
     }
 }
