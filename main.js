@@ -106,7 +106,7 @@ function car1left() {
     }
 }
 function car1right() {
-    if (car1x<=500) {
+    if (car1x<=700) {
         car1x= car1x+10;
         console.log("Car1 X="+car1x+"Car1 Y="+car1y+"Car2 X="+car2x+"Car2 Y"+car2y);
         uploadBackground();
@@ -150,3 +150,13 @@ function car2right() {
         uploadCar2();
     }
 }
+
+if (car1x>=700) {
+    console.log("Car 1 Is the Winner!");
+    document.getElementById("winner").innerHTML="Car 1 Is The Winner";
+}
+else if(car2x>=700) {
+    console.log("Car 2 is the Winner!");
+    document.getElementById("winner").innerHTML="Car 2 Is The Winner";
+}
+
