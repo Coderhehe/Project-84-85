@@ -76,6 +76,14 @@ function mykeydown(e) {
         car2right();
         console.log("You Pressed D");
     }
+if (car1x>=700) {
+        console.log("Car 1 Is the Winner!");
+        document.getElementById("winner").innerHTML="Car 1 Is The Winner";
+    }
+    else if(car2x>=700) {
+        console.log("Car 2 is the Winner!");
+        document.getElementById("winner").innerHTML="Car 2 Is The Winner";
+}
 }
 
 function car1up() {
@@ -148,14 +156,6 @@ function car2right() {
         uploadBackground();
         uploadCar1();
         uploadCar2();
-    }
-    if (car1x>=700) {
-        console.log("Car 1 Is the Winner!");
-        document.getElementById("winner").innerHTML="Car 1 Is The Winner";
-    }
-    else if(car2x>=700) {
-        console.log("Car 2 is the Winner!");
-        document.getElementById("winner").innerHTML="Car 2 Is The Winner";
     }
 }
 
